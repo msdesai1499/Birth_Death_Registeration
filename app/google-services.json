@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "935892479718",
+    "firebase_url": "https://birthdeathregisteration-b59b2.firebaseio.com",
+    "project_id": "birthdeathregisteration-b59b2",
+    "storage_bucket": "birthdeathregisteration-b59b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935892479718:android:16a5a1e365e961d1",
+        "android_client_info": {
+          "package_name": "com.example.hp.birth_death_registeration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935892479718-udv965kvcslvkud79bncpj0dunjc2ml4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.birth_death_registeration",
+            "certificate_hash": "c18a61f06f06bc6a0d3d543c73e13b46cb18c597"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOSN9RguEXblNUe13VHZjX94hi7k42Cmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935892479718-2f10e83s9natdvu5qjbrotn9oi5odl90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

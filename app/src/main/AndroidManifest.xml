@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.birth_death_registeration">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Birth Death Registeration"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DBN"></activity>
+        <activity android:name=".MOSignupAct" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.AppBarOverlay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SignUpActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ForgetPasswordActivity" />
+        <activity android:name=".DSignUpActivity" />
+        <activity android:name=".MOSignUpActivity" />
+        <activity
+            android:name=".DLoginActivity"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity
+            android:name=".MOLoginActivity"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+        <activity android:name=".DForgetPasswordActivity" />
+        <activity android:name=".DChangeActivity" />
+        <activity android:name=".MOChangeActivity" />
+        <activity android:name=".MOForgetPsswordActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".BirthCActivity" />
+        <activity android:name=".BFormPActivity" />
+        <activity android:name=".BFormCActivity" />
+        <activity android:name=".BFormFActivity" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".DeathCActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".ProfileDActivity" />
+        <activity android:name=".ProfileMActivity" />
+        <activity android:name=".DFormPActivity" />
+        <activity android:name=".DFormDPActivity" />
+        <activity android:name=".DFormFActivity" />
+        <activity android:name=".DcHomeActivity" />
+        <activity android:name=".MoHomeActivity" />
+        <activity android:name=".HelpDActivity" />
+        <activity android:name=".HelpMActivity" />
+        <activity android:name=".AboutDActivity" />
+        <activity android:name=".AboutMActivity" />
+        <activity android:name=".NotificationsDActivity" />
+        <activity android:name=".RegisterationDActivity" />
+        <activity android:name=".NotificationMActivity" />
+        <activity android:name=".DBNotificationActivity" />
+        <activity android:name=".DDNotificationActivity" />
+        <activity android:name=".MBNotificationActivity" />
+        <activity android:name=".MDNotificationActivity" />
+        <activity android:name=".RBirthActivity" />
+        <activity android:name=".RDeathActivity" />
+    </application>
+
+</manifest>
